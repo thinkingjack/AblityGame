@@ -176,32 +176,6 @@ public class Character : MonoBehaviour
             abilityButton.onClick.AddListener(UseAbility);
         }
     }
-
-    //public void UseAbility()
-    //{
-    //    if (hasUsedAbility)
-    //    {
-    //        Debug.Log($"{characterName}은 이미 능력을 사용했습니다.");
-    //        return;
-    //    }
-
-    //    if (isAbilityDisabledThisTurn)
-    //    {
-    //        Debug.Log($"{characterName}의 능력은 이번 턴 무력화되어 사용할 수 없습니다!");
-    //        return;
-    //    }
-
-    //    if (assignedAbility != null)
-    //    {
-    //        assignedAbility.ActivateAbility(this);
-    //        hasUsedAbility = true;
-    //        abilityButton.gameObject.SetActive(false);
-    //    }
-    //    else
-    //    {
-    //        Debug.LogWarning($"{characterName}에게 할당된 능력이 없습니다!");
-    //    }
-    //}
     public void UseAbility()
     {
         if (hasUsedAbility)

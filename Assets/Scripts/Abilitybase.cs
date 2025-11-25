@@ -11,7 +11,6 @@ public abstract class AbilityBase : ScriptableObject
 
     public abstract void ActivateAbility(Character user);
 
-
     public virtual void OnMovedByAbility(Character selfMoved) { }
 
     public virtual void OnTurnStart(Character self) { } // 추가
@@ -22,5 +21,4 @@ public abstract class AbilityBase : ScriptableObject
         yield return null;     // 코루틴이니까 최소한의 yield 필요
         onComplete?.Invoke();  // 끝났다는 콜백 호출
     }
-
 }

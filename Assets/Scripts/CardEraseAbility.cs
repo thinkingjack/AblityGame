@@ -5,7 +5,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Ability/Card Destroy Ability")]
 public class CardEraseAbility : AbilityBase
 {
-
     private bool hasActivated = false;
 
     public override void ActivateAbility(Character user)
@@ -47,7 +46,6 @@ public class CardEraseAbility : AbilityBase
 
             // 선택이 완료되면, CharacterSelector UI 숨기기
             CharacterSelector.Instance.gameObject.SetActive(false);
-
         });
     }
 }

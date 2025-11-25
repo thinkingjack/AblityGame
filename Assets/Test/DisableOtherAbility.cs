@@ -8,7 +8,7 @@ public class DisableOtherAbility : AbilityBase
 
     public override void ActivateAbility(Character user)
     {
-        // 직접 호출되는 능력이 아니므로 비워둡니다.
+        // 직접 호출되는 능력이 아님
     }
 
     public override void OnTurnStart(Character self)

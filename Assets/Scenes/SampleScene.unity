@@ -423,7 +423,7 @@ MonoBehaviour:
   moveDistance: 0.5
   turnManager: {fileID: 0}
   hasUsedAbility: 0
-  abilityButton: {fileID: 1702761193}
+  abilityButton: {fileID: 0}
   assignedAbility: {fileID: 0}
   lastUsedCard: -1
   enableCardBonus: 0
@@ -676,8 +676,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   allAbilities:
-  - {fileID: 11400000, guid: 0623c277969fc4d449b9cc28cca787c7, type: 2}
-  - {fileID: 11400000, guid: 55aa1745cd251bf4cbcf089ca392f80c, type: 2}
+  - {fileID: 11400000, guid: f8086f9c4ab04f64e9481a8a284da096, type: 2}
   characters:
   - {fileID: 1875421491}
   - {fileID: 345905424}
@@ -1449,7 +1448,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   buttonPrefab: {fileID: 2991206816120775223, guid: f15155eab5af18b419aa379ba18e8a5b, type: 3}
-  buttonContainer: {fileID: 1782070756}
+  buttonContainer: {fileID: 0}
 --- !u!4 &1280700786
 Transform:
   m_ObjectHideFlags: 0
@@ -2141,7 +2140,7 @@ MonoBehaviour:
   moveDistance: 0.5
   turnManager: {fileID: 0}
   hasUsedAbility: 0
-  abilityButton: {fileID: 1702761193}
+  abilityButton: {fileID: 0}
   assignedAbility: {fileID: 0}
   lastUsedCard: -1
   enableCardBonus: 0
@@ -2402,7 +2401,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -24.961548, y: -192}
+  m_AnchoredPosition: {x: -144, y: -192}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1861238611
@@ -2481,7 +2480,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 176.13257, y: -267}
+  m_AnchoredPosition: {x: -216, y: -446}
   m_SizeDelta: {x: 652.2653, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1866467766
